@@ -33,12 +33,13 @@ optimizer = ConsensusBasedOptimizer(
 )
 result = optimizer.optimize(objective)
 print(f"Optimal solution: {result}")
-References
+```
+## References
 This implementation is based on the following papers:
 
-Fornasier, M., Klock, T., & Riedl, K. (2020). Consensus-based optimization methods converge globally. arXiv preprint arXiv:2005.05249.
-Fornasier, M., Huang, H., Pareschi, L., & Sünnen, P. (2021). Consensus-based optimization on the sphere: Convergence to global minimizers and machine learning. Journal of Machine Learning Research, 22(237), 1-55. https://jmlr.org/papers/v22/21-0259.html
-Ha, S. Y., Jin, S., & Kim, D. (2020). Convergence and error estimates for time-discrete consensus-based optimization algorithms. arXiv preprint arXiv:2006.07625.
+* Fornasier, M., Klock, T., & Riedl, K. (2020). Consensus-based optimization methods converge globally. arXiv preprint arXiv:2005.05249.
+* Fornasier, M., Huang, H., Pareschi, L., & Sünnen, P. (2021). Consensus-based optimization on the sphere: Convergence to global minimizers and machine learning. Journal of Machine Learning Research, 22(237), 1-55. https://jmlr.org/papers/v22/21-0259.html
+* Ha, S. Y., Jin, S., & Kim, D. (2020). Convergence and error estimates for time-discrete consensus-based optimization algorithms. arXiv preprint arXiv:2006.07625.
 
 License
 MIT
